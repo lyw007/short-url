@@ -4,7 +4,7 @@ var UrlService = require("../services/UrlService");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: '网址缩短服务' });
 });
 
 /* GET 解析key_url*/

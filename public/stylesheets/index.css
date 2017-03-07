@@ -1,0 +1,7 @@
+html{
+    background-color:#eeeeee;
+}
+textarea.form-control{
+    resize: none;
+    font-size: 20px;
+}
