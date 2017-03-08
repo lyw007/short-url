@@ -18,10 +18,11 @@ exports.createRandomStrA = function(n){
 //将十进制的数字转为62禁止的字符串
 exports.decToSixtyTwoStr = function(num){
     var arr_str = [
-        'a','b','c','d','e','f','g','h','i','j','k','l','m','o','n','p','q','r','s','t','u','v','w','x','y','z',
-        'A','B','C','D','E','F','G','H','I','J','K','L','M','O','N','P','Q','R','S','T','U','V','W','X','Y','Z',
-        '0','1','2','3','4','5','6','7','8','9'];
+        'a','b','c','d','0','e','f','g','h','1','i','j','k','l','2','m','o','n','p','3','q','r','s','t','4','u','v','w','x','5','y','z',
+        'A','B','C','D','E','6','F','G','H','I','7','J','K','L','M','O','N','8','P','Q','R','S','T','9','U','V','W','X','Y','Z',
+        ];
     var val = parseInt(num);
+    val+= 100000000;
     var str = '';
     var i = 0;
     var ll = arr_str.length;
