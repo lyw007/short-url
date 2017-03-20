@@ -5,7 +5,7 @@ $(function(){
     var base = location.protocol + '://'+ location.hostname  + ':' + location.port;
     $('#js-btn-create').on('click',function(){
         var src_url = $('#js-url-input').val();
-        if(src_url == ''){
+        if(src_url == '' && src_url.indexOf() > 0){
             return;
         }
         if(!isURL(src_url)){
