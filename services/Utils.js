@@ -22,7 +22,7 @@ exports.decToSixtyTwoStr = function(num){
         'A','B','C','D','E','6','F','G','H','I','7','J','K','L','M','O','N','8','P','Q','R','S','T','9','U','V','W','X','Y','Z',
         ];
     var val = parseInt(num);
-    val+= 10000000000000;
+    val+= 1000000000000;
     var str = '';
     var i = 0;
     var ll = arr_str.length;
