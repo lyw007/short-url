@@ -7,7 +7,7 @@ var crypto = require("crypto");
 var UrlService = require("../services/UrlService");
 var Utils = require("../services/Utils");
 var moment = require("moment");
-const HOST_NAME = 'http://u.wuyb.com/';
+const HOST_NAME = 'http://u.wuyb.xyz/';
 /*转化一个长url*/
 router.post('/create',function(req,res,next){
     var src_url = req.param('src_url');
